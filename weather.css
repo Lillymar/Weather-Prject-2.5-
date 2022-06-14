@@ -160,7 +160,7 @@
   }
   
   .ajax-section .city-temp {
-    font-size: 5rem;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 10px;
     color: var(--text_dark);
