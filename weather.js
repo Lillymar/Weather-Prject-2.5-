@@ -63,7 +63,9 @@ form.addEventListener("submit", (e) => {
           </h2>
           <div class="city-temp">${Math.round(main.temp)}<sup>
          °C
-          </sup>
+          </sup> | ${Math.round(main.temp * 1.8 + 32)}<sup>
+          °F
+           </sup>
           </div>
           <figure>
             <img class="city-icon" src="${icon}" alt="${
